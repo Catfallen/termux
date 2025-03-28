@@ -3,7 +3,7 @@ import paho.mqtt.client as mqtt
 # Configuração do MQTT
 BROKER = "192.168.0.112"  # Altere para o IP do seu broker
 TOPICO = "teste"
-PORT = 1885
+PORT = 1890
 
 # Criando o cliente MQTT
 cliente = mqtt.Client()
